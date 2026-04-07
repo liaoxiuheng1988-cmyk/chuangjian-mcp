@@ -1,0 +1,46 @@
+{
+  "kn_rule_c6c4c8b4": {
+    "knowledge_id": "kn_rule_c6c4c8b4",
+    "knowledge_type": "rule",
+    "content": {
+      "pattern": "GPU需求上升 → 云服务机会",
+      "weight": 0.8
+    },
+    "confidence": 0.7999999999999999,
+    "last_feedback_at": "2026-04-08T03:06:22.611363",
+    "feedback_count": 1,
+    "created_at": "2026-04-08T03:06:22.567591",
+    "access_count": 0,
+    "compressed": false
+  },
+  "kn_q_value_8e648f8e": {
+    "knowledge_id": "kn_q_value_8e648f8e",
+    "knowledge_type": "q_value",
+    "content": {
+      "state": "3-2-2-3",
+      "action": "tool",
+      "q_value": 2.5
+    },
+    "confidence": 0.6799999999999999,
+    "last_feedback_at": "2026-04-08T03:06:22.622847",
+    "feedback_count": 1,
+    "created_at": "2026-04-08T03:06:22.580664",
+    "access_count": 0,
+    "compressed": false
+  },
+  "kn_causal_37e24984": {
+    "knowledge_id": "kn_causal_37e24984",
+    "knowledge_type": "causal",
+    "content": {
+      "from_node": "OpenClaw",
+      "to_node": "GPU供应商",
+      "confidence": 0.75
+    },
+    "confidence": 0.75,
+    "last_feedback_at": "",
+    "feedback_count": 0,
+    "created_at": "2026-04-08T03:06:22.599538",
+    "access_count": 0,
+    "compressed": false
+  }
+}

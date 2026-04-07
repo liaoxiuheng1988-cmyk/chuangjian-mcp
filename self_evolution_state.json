@@ -1,0 +1,263 @@
+{
+  "dimension_weights": {
+    "技术": {
+      "dimension": "技术",
+      "base_weight": 1.0,
+      "current_weight": 1.0,
+      "accuracy_history": [
+        1.0
+      ],
+      "adjustment_count": 0
+    },
+    "商业模式": {
+      "dimension": "商业模式",
+      "base_weight": 1.0,
+      "current_weight": 2.0,
+      "accuracy_history": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "adjustment_count": 21
+    },
+    "用户痛点": {
+      "dimension": "用户痛点",
+      "base_weight": 1.0,
+      "current_weight": 1.0,
+      "accuracy_history": [
+        1.0
+      ],
+      "adjustment_count": 0
+    },
+    "政策": {
+      "dimension": "政策",
+      "base_weight": 1.0,
+      "current_weight": 1.0,
+      "accuracy_history": [],
+      "adjustment_count": 0
+    },
+    "跨界": {
+      "dimension": "跨界",
+      "base_weight": 1.0,
+      "current_weight": 1.0,
+      "accuracy_history": [],
+      "adjustment_count": 0
+    },
+    "时间窗口": {
+      "dimension": "时间窗口",
+      "base_weight": 1.0,
+      "current_weight": 1.0,
+      "accuracy_history": [
+        1.0
+      ],
+      "adjustment_count": 0
+    },
+    "资源": {
+      "dimension": "资源",
+      "base_weight": 1.0,
+      "current_weight": 1.0,
+      "accuracy_history": [],
+      "adjustment_count": 0
+    },
+    "市场": {
+      "dimension": "市场",
+      "base_weight": 1.0,
+      "current_weight": 1.0,
+      "accuracy_history": [],
+      "adjustment_count": 0
+    }
+  },
+  "killchain_thresholds": {
+    "score_min": {
+      "check_name": "score_min",
+      "base_threshold": 4.5,
+      "current_threshold": 4.5,
+      "success_cases": 0,
+      "failure_cases": 0
+    },
+    "window_min": {
+      "check_name": "window_min",
+      "base_threshold": 7,
+      "current_threshold": 7,
+      "success_cases": 0,
+      "failure_cases": 0
+    },
+    "validation_failures": {
+      "check_name": "validation_failures",
+      "base_threshold": 3,
+      "current_threshold": 3,
+      "success_cases": 0,
+      "failure_cases": 0
+    }
+  },
+  "pattern_confidence": {
+    "infrastructure": {
+      "pattern_type": "infrastructure",
+      "base_confidence": 0.7,
+      "current_confidence": 0.7,
+      "success_count": 0,
+      "failure_count": 0
+    },
+    "service": {
+      "pattern_type": "service",
+      "base_confidence": 0.8,
+      "current_confidence": 0.8500000000000001,
+      "success_count": 1,
+      "failure_count": 0
+    },
+    "cascade": {
+      "pattern_type": "cascade",
+      "base_confidence": 0.7,
+      "current_confidence": 0.7,
+      "success_count": 0,
+      "failure_count": 0
+    },
+    "downstream": {
+      "pattern_type": "downstream",
+      "base_confidence": 0.85,
+      "current_confidence": 0.85,
+      "success_count": 0,
+      "failure_count": 0
+    },
+    "inverse": {
+      "pattern_type": "inverse",
+      "base_confidence": 0.65,
+      "current_confidence": 0.65,
+      "success_count": 0,
+      "failure_count": 0
+    }
+  },
+  "keyword_library": {
+    "library": {
+      "技术": [
+        "LLM",
+        "API",
+        "模型",
+        "开源",
+        "AI",
+        "GPT",
+        "Agent",
+        "RAG",
+        "向量",
+        "Embedding",
+        "微调",
+        "推理",
+        "训练",
+        "部署",
+        "云服务",
+        "GPU",
+        "算力"
+      ],
+      "商业模式": [
+        "订阅",
+        "付费",
+        "免费",
+        "增值",
+        "SaaS",
+        "API调用",
+        "token",
+        "按量计费",
+        "年费",
+        "代理",
+        "分销",
+        "渠道",
+        "获客",
+        "转化",
+        "留存"
+      ],
+      "用户痛点": [
+        "效率",
+        "成本",
+        "门槛",
+        "学习曲线",
+        "集成",
+        "迁移",
+        "稳定性",
+        "可靠性",
+        "安全性",
+        "隐私",
+        "合规",
+        "定制",
+        "自动化",
+        "批量",
+        "批处理"
+      ],
+      "政策": [
+        "监管",
+        "合规",
+        "牌照",
+        "数据安全",
+        "隐私保护",
+        "AI监管",
+        "算法备案",
+        "行业标准",
+        "扶持",
+        "补贴",
+        "税收优惠",
+        "试点",
+        "开放"
+      ],
+      "跨界": [
+        "组合",
+        "融合",
+        "嫁接",
+        "复制",
+        "迁移",
+        "适配",
+        "集成",
+        "整合",
+        "生态",
+        "平台化",
+        "标准化"
+      ],
+      "时间窗口": [
+        "窗口期",
+        "先发",
+        "早期",
+        "红利期",
+        "窗口关闭",
+        "最佳进入期",
+        "成长期",
+        "成熟期",
+        "饱和"
+      ],
+      "资源": [
+        "人脉",
+        "资金",
+        "技术",
+        "数据",
+        "渠道",
+        "团队",
+        "经验",
+        "资源整合",
+        "杠杆",
+        "BD"
+      ],
+      "市场": [
+        "蓝海",
+        "红海",
+        "细分",
+        "垂直",
+        "下沉",
+        "出海",
+        "全球化",
+        "本地化",
+        "细分市场",
+        " niche",
+        "赛道",
+        "风口"
+      ]
+    },
+    "trending": {}
+  },
+  "state": "稳定",
+  "last_learning_at": "2026-04-07 19:21:18",
+  "_conservative_adjustment": 0
+}

@@ -1,0 +1,12 @@
+{
+  "states": {
+    "3-3-2-3": {
+      "template": 0.1,
+      "tool": 0.0,
+      "content": 0.0,
+      "service": 0.0
+    }
+  },
+  "exploration_rate": 0.198,
+  "updated_at": "2026-04-08T01:24:33.790151"
+}
